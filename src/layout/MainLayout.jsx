@@ -11,7 +11,7 @@ export const MainLayout = () => {
       <Header onSearch={setSearchWord}/>
       <div className="flex p-4 ">
         <SideBar />
-        <div className="flex-1">
+        <div className="flex-1 p-4">
           <Outlet context={{searchWord}}/>
         </div>
       </div>
